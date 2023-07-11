@@ -25,4 +25,4 @@ Now to run this image as docker image use below command.
 
 `docker run -d --name container-buildpacks-app -p 8080:8080 container-buildpacks-demo`
 
-We did not use Dockerfile to build docker image for this project.
+This is how we generate container images for a springboot app using buildpacks!
