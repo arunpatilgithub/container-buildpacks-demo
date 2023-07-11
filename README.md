@@ -17,6 +17,10 @@ bootBuildImage {
 }
 ```
 
+Now you can build an image using below command from the root of the project(for gradle based project).
+
+`./gradlew bootBuildImage
+`
 You can verify that the build generations steps includes jar layers from the output of the above command.
 
 The generated docker image can be viewed using `docker image ls`
@@ -25,4 +29,4 @@ Now to run this image as docker image use below command.
 
 `docker run -d --name container-buildpacks-app -p 8080:8080 container-buildpacks-demo`
 
-We did not use Dockerfile to build docker image for this project.
+This is how we generate container images for a springboot app using buildpacks !
