@@ -21,6 +21,7 @@ Now you can build an image using below command from the root of the project(for 
 
 `./gradlew bootBuildImage
 `
+
 You can verify that the build generations steps includes jar layers from the output of the above command.
 
 The generated docker image can be viewed using `docker image ls`
