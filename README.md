@@ -16,6 +16,9 @@ bootBuildImage {
     environment = ["BP_JVM_VERSION" : "17.*"]
 }
 ```
+Now you can build an image using below command(for gradle based project).
+
+`./gradlew bootBuildImage`
 
 You can verify that the build generations steps includes jar layers from the output of the above command.
 
